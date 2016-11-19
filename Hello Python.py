@@ -92,9 +92,19 @@
 # a1, a2, a3 = x_plus_one(a1, a2, a3)
 # print a1, a2, a3
 
-file = open('PythonLife.txt', 'w')
-file .write('I create this file for the course. \n')
-file .write('How about you? \n')
-file.write('How is your exam?')
-file.close()
+# file = open('PythonLife.txt', 'w')
+# file .write('I create this file for the course. \n')
+# file .write('How about you? \n')
+# file.write('How is your exam?')
+# file.close()
 
+# file  = open('PythonLife.txt', 'r')
+# # print(file.read())
+# # print(file.read(10))
+# print(file.readlines())
+# file.close()
+
+file = open('PythonLife.txt', 'r')
+for line in file:
+    print line
+file.close()
