@@ -1,5 +1,5 @@
-# x = 7**6
-# print x
+x = 7**6
+print x
 
 # String
 # t = 'he is a string. Who are you?'
@@ -104,7 +104,21 @@
 # print(file.readlines())
 # file.close()
 
-file = open('PythonLife.txt', 'r')
-for line in file:
-    print line
-file.close()
+# file = open('PythonLife.txt', 'r')
+# for line in file:
+#     print line
+# file.close()
+
+# with open('PythonLife.txt','r') as file_obj:
+#     for line in file_obj:
+#         print line
+
+
+# with open('C:\\Users\\v-jasxi\\Documents\\SpecificFile.txt', 'r+') as file_obj:
+#     file_obj.write('Open a file through specific path! \n')
+    # file_obj.write('Bravo!')
+
+# with open('C:\\Users\\v-jasxi\\Documents\\SpecificFile.txt', 'r') as file_obj:
+#     for lines in file_obj:
+#         print lines
+
