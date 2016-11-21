@@ -6,14 +6,13 @@ i = max_Len
 list_Index = max_Len
 
 while list_Index > 0:
-    for i in range(0, max_Len):
+    for i in range(max_Len, 5, -1):
         if list_Int[i - 1] < list_Int[i]:
             list_Int[i] = list_Int[i -1] + list_Int[i]
             list_Int[i - 1] = list_Int[i] - list_Int[i - 1]
             list_Int[i] = list_Int[i] - list_Int[i - 1]
 
-            i -= 1
-    print list_Index, list_Int
+    print list_Index, max_Len, list_Int
     list_Index -= 1
 
 
