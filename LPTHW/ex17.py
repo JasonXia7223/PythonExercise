@@ -28,4 +28,5 @@
 # out_file.close()
 # in_file.close()
 
+#Change the code to one line.
 open('mew-file.txt', 'w').write(open('text.txt').read())
