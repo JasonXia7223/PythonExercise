@@ -1,5 +1,5 @@
-x = 7**6
-print x
+# x = 7**2
+# print(x)
 
 # String
 # t = 'he is a string. Who are you?'
@@ -121,4 +121,79 @@ print x
 # with open('C:\\Users\\v-jasxi\\Documents\\SpecificFile.txt', 'r') as file_obj:
 #     for lines in file_obj:
 #         print lines
+#
+# amount = float(input("Enter amount: "))
+# inrate = float(input("Enter interest rate: "))
+# period = float(input("Enter period: "))
+#
+# value = 0
+# year = 1
+#
+# while year <= period:
+#     value = amount + amount * inrate
+#     print("Year {} Rs. {}".format(year, value))
+#     amount = value
+#     year = year + 1
 
+# data = ('urnotjason', 'China', 'Python')
+# name, country, language = data
+# print(name, country, language)
+
+# sum = 0
+# for i in range(1,11):
+#     sum += 1 / i
+#     print(sum)
+#     i += 1
+
+# import math
+# radius = int(input('Please enter the radius: '))
+# area = math.pi * radius ** 2
+# print(('The cycle area is {:.10f}').format(area))
+
+# a = 0
+# b = 1
+#
+# while b < 100:
+#     print(b)
+#     a, b = b, a + b
+
+# a = 1
+# b = 1
+#
+# while a < 10:
+#     while b < 10:
+#         print(('{} * {} = {}').format(a, b, a * b))
+#         b += 1
+#     a += 1
+#     b = 1
+
+# print(bool(-123))
+# print(bool(123))
+# print(bool('True'))
+# print(bool('False'))
+# print(bool(0.1))
+# print(bool(''))
+
+# def SayHello(a):
+#     print("Hello from " + a)
+#
+# SayHello('Jason')
+#
+# def BigorSmall(a, b):
+#     if(a > b):
+#         print(a)
+#     else:
+#         print(b)
+#
+# BigorSmall(12,6)
+
+print("How old are you?")
+age = int(input())
+
+print("How tall are you?")
+height = input()
+
+print("How much do you weigh?")
+weight = input()
+
+print("So you're %r old, %r tall and %r heavy" %(age, height, weight))

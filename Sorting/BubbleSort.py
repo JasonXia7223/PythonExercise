@@ -15,7 +15,7 @@ while list_Index > 1:
 
     list_Index -= 1
 
-print list_Index, i, list_Int
+print (list_Int)
 
 
 
